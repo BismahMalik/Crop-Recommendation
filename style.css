@@ -1,0 +1,458 @@
+.ending-section {
+    background-color: rgb(55, 34, 2);
+    color: white;
+    margin-top: -16px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.article {
+    width: 30%;
+    float: left;
+    margin: 0 1%;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    font-size: 13px;
+}
+
+#last-sub {
+    background-color: black;
+    color: white;
+    border: black;
+    border-radius: 0%;
+    height: auto;
+    padding-bottom: 6px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+#your-mail {
+    padding-bottom: 15px;
+}
+
+#last-submit {
+    background-color: #07153a;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid rgb(204, 201, 201);
+    padding: 5px 20px;
+
+
+
+}
+
+#mail {
+    background-color: white;
+    color: black !important;
+    min-width: 115%;
+    height: auto;
+    border-radius: 0%;
+}
+
+#mail::placeholder {
+    color: black
+        /* Change this color to your desired color */
+}
+
+.news p {
+    font-size: 12px;
+}
+
+.article-container hr {
+    color: wheat;
+
+    padding-top: 0%;
+    min-width: 100%;
+}
+
+.article h3 {
+
+    margin-bottom: 10%;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Houses h1 {
+    color: #07153a;
+    font-weight: bolder;
+
+}
+
+.Houses p {
+    color: #5ba601;
+    font-weight: bolder;
+
+}
+
+#owner-houses {
+    position: absolute;
+    left: 7%;
+
+}
+
+#owner-houses-img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    filter: invert(0);
+
+}
+
+.Houses {
+    text-align: center;
+    margin-top: 5%;
+    justify-content: center;
+    padding-bottom: 40%;
+    font-weight: bolder;
+}
+
+
+.play-button {
+    width: 15%;
+    border-radius: 50%;
+
+}
+
+.play-button:hover {
+    background-color: rgba(152, 174, 139, 0.614);
+    border-radius: 50%;
+    padding: 25px;
+
+}
+
+.Categories h1 {
+    color: #07153a;
+    font-weight: bolder;
+
+}
+
+.Categories p {
+    color: #5ba601;
+    font-weight: bolder;
+
+}
+
+.Categories {
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+
+.Houses-img {
+
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.Categories-img {
+
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Categorie-img {
+
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.submit-property {
+    background-image: url(office.jpg);
+    background-color: #0d1b38;
+    background-blend-mode: multiply;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    font-weight: bolder;
+
+}
+
+.submit-property h1 {
+    font-weight: bolder;
+}
+
+.submit-property p {
+    margin-left: 8%;
+    margin-right: 8%;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 25px;
+}
+
+.buy-sell {
+    color: #5ba601;
+    text-decoration: none;
+
+}
+
+.sub-button {
+    padding: 10px 10px;
+}
+
+.submit-property button {
+    background-color: #5ba601;
+    border: #5ba601;
+    color: white;
+    padding: 20px 40px;
+    flex: 1;
+    margin: 20px;
+
+}
+
+#buy {
+    padding: 20px 45px !important;
+}
+
+.image-text {
+    margin: -210px;
+    color: white;
+
+}
+
+#for-sell {
+    position: relative;
+    top: -210px;
+    right: 0%;
+    padding: 5px 50px;
+    border-radius: 5px !important;
+}
+
+#Orchard {
+    position: absolute;
+    left: 70%;
+
+}
+
+#image-col-8 {
+    position: absolute;
+    left: 35%;
+
+}
+
+.image-text button {
+    color: white;
+    background-color: #5ba601;
+    border: #5ba601;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+#find-place {
+    text-align: left !important;
+}
+
+#find-placep {
+    text-align: left !important;
+    font-size: 15px;
+    margin-left: 0%;
+}
+
+#p-button {
+    display: flex;
+}
+
+#p-button button {
+    margin-top: -10px;
+}
+
+.sponsors {
+    list-style: none;
+    display: flex;
+    background-color: #5ba601;
+    justify-content: space-between;
+}
+
+#sponsors {
+    margin-top: -90px;
+    padding: 30px;
+}
+
+#our-client {
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#our-client-card {
+    margin-top: 70px;
+    background-color: transparent;
+    color: white;
+    border: #beb8b873 solid 1px;
+}
+
+#our-client-card #card-img-top {
+    border: #5ba601 solid 5px;
+}
+
+#our-client-card ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+
+#our-client-card ul li img {
+    width: 5%;
+    justify-content: center;
+
+
+}
+
+#our-client-card-title {
+    color: white !important;
+}
+
+#OurClient h5 {
+    color: #5ba601;
+}
+
+.rent-sell {
+    border: transparent;
+    padding: 10px 40px;
+
+}
+
+.rent-sell:hover {
+    background-color: #5ba601;
+    color: white;
+}
+
+#Daily-Cards {
+    padding-top: 20px;
+    justify-content: center;
+
+
+}
+
+#Daily-cardBody {
+    margin-top: 10px;
+    text-align: left;
+    background-color: #f7f7f7;
+
+}
+
+#Daily-cardId {
+    background-color: #f7f7f7;
+
+}
+
+#Daily-cardId:hover {
+    background-color: #f7f7f7;
+    color: #07153a;
+
+}
+
+#Daily-cardBody h5,
+#Daily-cardBody p {
+
+    text-align: left;
+    color: #07153a;
+
+}
+
+.image-container {
+    position: relative;
+    min-height: 300px;
+}
+
+.image-container img {
+    border-radius: 1%;
+}
+
+#arrow {
+    width: 30px;
+    height: auto;
+
+    margin-top: -10px;
+    border-radius: 50%;
+    border: 1px solid white;
+
+}
+
+.news {
+    display: flex;
+    gap: 40px;
+}
+
+#Orchard div {
+    /* display: flex; */
+}
+
+#Orchard img {
+    object-fit: cover;
+    width: 5%;
+    height: 5%;
+    border-radius: 50%;
+}
+
+.Properties-ul {
+    list-style: none;
+    color: gray;
+    background-color: #ececec;
+    display: flex;
+    gap: 10px;
+}
+
+#last-submit:hover {
+    background-color: #5ba601;
+
+}
+
+i {
+    background-color: #5ba601;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    color: white;
+
+}
+
+.i-container {
+    display: flex;
+    gap: 33%;
+    justify-content: center;
+    position: relative;
+    bottom: 10%;
+
+}
+
+i:hover {
+    background-color: #bfd99e;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 12px;
+    padding-bottom: 0%;
+
+
+}
+
+.icon-text-container {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.icon-text-container img {
+    width: 21px;
+    height: 21px;
+    filter: invert(1);
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crop Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+          integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+          crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar">
+    <a class="navbar-brand" href="#">
+        <h4>CropPredictor</h4>
+    </a>
+</nav>
+
+<div id="predictionCard">
+    <h1>Crop Prediction</h1>
+    <form id="predictionForm">
+        <div class="form-group">
+            <label for="inputTemperature">Temperature:</label>
+            <input type="number" class="form-control" id="inputTemperature" placeholder="Enter Temperature" required>
+        </div>
+        <div class="form-group">
+            <label for="inputHumidity">Humidity:</label>
+            <input type="number" class="form-control" id="inputHumidity" placeholder="Enter Humidity" required>
+        </div>
+        <div class="form-group">
+            <label for="inputRainfall">Rainfall:</label>
+            <input type="number" class="form-control" id="inputRainfall" placeholder="Enter Rainfall" required>
+        </div>
+        <button id="btn" type="submit" class="btn btn-primary">Predict</button>
+    </form>
+    <div id="predictionResult"></div>
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

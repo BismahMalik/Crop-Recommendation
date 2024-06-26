@@ -1,0 +1,92 @@
+.Video {
+    background-image: url("pexels-michael-steinberg-321452.jpg");
+    background-size: cover;
+    background-color: rgba(72, 71, 71, 0.341);
+    background-blend-mode: multiply;
+    padding: 300px 0px;
+}
+
+.Video h1 {
+    margin-top: -200px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.Video p {
+    color: whitesmoke;
+    margin: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+    font-weight: bolder;
+}
+
+.navbar {
+    /* background-color: rgb(73, 69, 45); */
+    background-color: rgb(55, 34, 2);
+    height: 90px;
+}
+
+.navbar-brand {
+
+    color: aliceblue;
+
+}
+
+#predictionCard {
+    background-color: #fff;
+    border: 3px solid rgb(55, 34, 2);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 33%;
+    margin-bottom: 10%;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#inputFeatures {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 1px solid rgb(55, 34, 2);
+    ;
+    background-color: white;
+    border-radius: 4px;
+}
+
+#btn {
+    background-color: rgb(55, 34, 2);
+    ;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    width: 30%;
+}
+
+button:hover {
+    background-color: black;
+}
+
+footer {
+    margin-top: -16px;
+    padding-top: 30px;
+    display: flex;
+    background-color: rgb(55, 34, 2);
+    color: white;
+    border: 1px solid #bcb4b449;
+
+}
+
+#predictionResult {
+    font-weight: 500;
+}
